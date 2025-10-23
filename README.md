@@ -32,13 +32,13 @@ CALCULATOR-APP-FASTAPI/
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/sahil-rahman-ds/Calculator-App-FastAPI.git
 cd Calculator-App-FastAPI
 ```
 
-2. Create and activate a virtual environment:
+### 2. Create and activate a virtual environment:
 
 **Create venv**
 ```bash
@@ -55,7 +55,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. Install dependencies:
+### 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
