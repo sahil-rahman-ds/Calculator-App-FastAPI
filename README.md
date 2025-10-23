@@ -2,6 +2,21 @@
 
 A FastAPI-based Calculator API that provides basic arithmetic operations through RESTful endpoints.
 
+## Project Structure
+
+```
+CALCULATOR-APP-FASTAPI/
+├── config/                  # Configuration files
+│   └── config.py
+├── router/                  # API endpoints definition
+│   └── router.py            # Contains FastAPI router definitions
+├── service/                 # Business logic layer
+│   └── calculator.py        # The core Calculator class logic
+├── venv/                    # Python virtual environment
+├── app.py                   # Main FastAPI application entry point
+└── requirements.txt         # Project dependencies
+```
+
 ## Features
 
 - Basic arithmetic operations (Addition, Subtraction, Multiplication, Division)
@@ -23,7 +38,23 @@ git clone https://github.com/sahil-rahman-ds/Calculator-App-FastAPI.git
 cd Calculator-App-FastAPI
 ```
 
-2. Install dependencies:
+2. Create and activate a virtual environment:
+**Create venv**
+```bash
+python -m venv venv
+```
+
+**Activate venv (Windows)**
+```bash
+.\venv\Scripts\activate
+```
+
+**Activate venv (macOS/Linux)**
+```bash
+source venv/bin/activate
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -91,21 +122,6 @@ The API includes error handling for:
 - Division by zero
 - Invalid operators
 - Server errors
-
-## Project Structure
-
-```
-CALCULATOR-APP-FASTAPI/
-├── config/                  # Configuration files
-│   └── config.py
-├── router/                  # API endpoints definition
-│   └── router.py            # Contains FastAPI router definitions
-├── service/                 # Business logic layer
-│   └── calculator.py        # The core Calculator class logic
-├── venv/                    # Python virtual environment
-├── app.py                   # Main FastAPI application entry point
-└── requirements.txt         # Project dependencies
-```
 
 ## Contributing
 
