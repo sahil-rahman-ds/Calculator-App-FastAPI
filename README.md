@@ -39,6 +39,7 @@ cd Calculator-App-FastAPI
 ```
 
 2. Create and activate a virtual environment:
+
 **Create venv**
 ```bash
 python -m venv venv
